@@ -48,6 +48,8 @@ This HTML file sets up the basic page structure and imports React.
 The body contains:
 - `<div id="root"></div>` which is the mount point for the React app.
 - The React and ReactDOM libraries loaded from the CDN.
+- CDN - Content Delivery Network.
+- CORS - Cross-origin Resource Sharing 
 - `<script src="./app.js"></script>` which runs the app code after the libraries are loaded.
 
 When the browser opens this page, React starts by rendering the element tree from `app.js` into the `root` div.

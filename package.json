@@ -1,0 +1,28 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "sanket react npm",
+  "keywords": [
+    "react",
+    "saket",
+    "npm"
+  ],
+  "homepage": "https://github.com/sanketnarlawar/react-practices#readme",
+  "bugs": {
+    "url": "https://github.com/sanketnarlawar/react-practices/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanketnarlawar/react-practices.git"
+  },
+  "license": "ISC",
+  "author": "sanket narlawar",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "parcel": "^2.16.4"
+  }
+}
