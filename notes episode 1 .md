@@ -52,4 +52,6 @@ The body contains:
 - CORS - Cross-origin Resource Sharing 
 - `<script src="./app.js"></script>` which runs the app code after the libraries are loaded.
 
+- CDN - Content Delivery Network.
+- CORS - Cross-origin Resource Sharing 
 When the browser opens this page, React starts by rendering the element tree from `app.js` into the `root` div.
