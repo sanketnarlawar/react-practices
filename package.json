@@ -18,11 +18,13 @@
   "license": "ISC",
   "author": "sanket narlawar",
   "type": "commonjs",
-  "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html"
   },
   "dependencies": {
-    "parcel": "^2.16.4"
+    "parcel": "^2.16.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   }
 }
