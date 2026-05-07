@@ -1,34 +1,31 @@
-//write this type of the structure using the react
-{/* <div>
-    <div>
-        <h1>i am an h1 tag</h1>
-        <h2>i am an h2 tag</h2>
+import react from "react";
+import reactDOM from "react-dom/client";
+
+// react.createElement => object => HTML Element render
+
+//React/JSXS Element
+const element =<h1>This Is Element By JSX </h1>
+
+//React Component
+const JsxHeading = () => (
+    <h1 className="head" tabIndex="5">
+    This Is component By React !
+    </h1>
+);
+
+
+// React Component \
+
+// Class Based Component - old way of writing component
+const HeadingComponent = ()=> (
+    <div id="container">
+    {element}
+    <JsxHeading />
+        <h1 id="heading"> This Is The Heading By Function Based Component </h1>
     </div>
-    <div>
-        <h1>i am an h1 tag</h1>
-        <h2>i am an h2 tag</h2>
-    </div>
-</div> */}
+);
+// Function Based Component- new way of writing component
 
-import React from "react";
-// reactElement(object) => HTML(Browser Undersands)
 
-import react from "react"; 
-import ReactDOM from "react-dom/client";
-
-const parent = React.createElement("div",{id:"parent"},[
-         React.createElement("div",{id:"children1"},[ 
-             React.createElement("h1",{}, "i am Sanket Narlawar 🚀"),
-             React.createElement("h2",{}, "Hi all of you ")
-   ] ), 
-   React.createElement("div",{id:"children2"},[
-        React.createElement("h1",{}, "i am an h1 tag"),
-        React.createElement("h2",{}, "i am an h2 tag")
-   ] ),
-]);
-// const heading = React.createElement("h1",{id : "heading",className:"heading"},"hello world to the react!");
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
- root.render(parent);
-
- console.log(parent);
+const root = reactDOM.createRoot(document.getElementById("root"));
+root.render(<HeadingComponent />);
